@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Dm-sans";
+  src: url("../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 1 1000;
+  font-style: oblique 0deg 10deg;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Dm-sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/app/bg-cafe.jpg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 320px) {
+  .app {
+    background-position-x: inherit;
+    background-size: auto;
+  }
+}

@@ -1,0 +1,163 @@
+.continer {
+  width: 80%;
+  margin: 0;
+  background-color: #1c1d1f;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  overflow: hidden;
+}
+@media (min-width: 600px) {
+  .continer {
+    width: 80%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+.continer::before {
+  content: url(../images/card-holder/vector.svg);
+  position: absolute;
+  top: 65px;
+  right: 30%;
+  z-index: 1;
+}
+@media (min-width: 320px) {
+  .continer::before {
+    top: 191px;
+    right: 16%;
+  }
+}
+@media (min-width: 600px) {
+  .continer::before {
+    top: 180px;
+    right: 20%;
+  }
+}
+@media (min-width: 900px) {
+  .continer::before {
+    top: 225px;
+    right: 24%;
+  }
+}
+@media (min-width: 1200px) {
+  .continer::before {
+    top: 210px;
+    right: 30%;
+  }
+}
+@media (min-width: 1440px) {
+  .continer::before {
+    top: 210px;
+    right: 29%;
+  }
+}
+.continer .heading {
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+}
+@media (min-width: 320px) {
+  .continer .heading {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
+@media (min-width: 600px) {
+  .continer .heading {
+    padding-top: 75px;
+  }
+}
+@media (min-width: 1200px) {
+  .continer .heading {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 1440px) {
+  .continer .heading {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+}
+.continer .heading h1 {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 320px) {
+  .continer .heading h1 {
+    font-size: 35px;
+  }
+}
+@media (min-width: 600px) {
+  .continer .heading h1 {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1200px) {
+  .continer .heading h1 {
+    color: white;
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1440px) {
+  .continer .heading h1 {
+    color: white;
+    font-size: 55px;
+    padding-bottom: 10px;
+    z-index: 10;
+  }
+}
+.continer .heading p {
+  color: #4d5257;
+  width: 48%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 320px) {
+  .continer .heading p {
+    width: 90%;
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 600px) {
+  .continer .heading p {
+    width: 70%;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .continer .heading p {
+    width: 48%;
+    font-size: 19px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1440px) {
+  .continer .heading p {
+    width: 54%;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+}
+.active {
+  background-color: #6e757d !important;
+}
+.continer .heading button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 7.5px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
